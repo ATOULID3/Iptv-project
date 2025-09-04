@@ -18,10 +18,10 @@ const HomePage: React.FC = () => {
       </Helmet>
 
       <HeroSection />
+      <PricingSection />
       <ContentShowcase />
       <PremiumFeatures />
       <LiveSportsSection />
-      <PricingSection />
       <TestimonialsSection />
       <FAQSection />
     </>

@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 overflow-hidden">
       {/* Background pattern */}
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://www.journaldugeek.com/app/uploads/2025/06/iptv-tv-streaming.jpg')] bg-cover bg-center opacity-30"></div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0">
@@ -71,18 +71,13 @@ const HeroSection: React.FC = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               
-              <Link
-                to="/register"
-                className="group inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-200 border border-white/20"
-              >
-                <span>Create Account</span>
-              </Link>
+
             </div>
             
-            <button className="group inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-200 border border-white/20">
+            {/* <button className="group inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/20 transition-all duration-200 border border-white/20">
               <Play className="w-5 h-5" />
               <span>{t('learnMore')}</span>
-            </button>
+            </button> */}
           </div>
         </motion.div>
 

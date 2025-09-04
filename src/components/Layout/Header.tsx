@@ -67,12 +67,12 @@ const Header: React.FC<HeaderProps> = ({ isDashboard = false }) => {
           {/* Right side controls */}
           <div className="flex items-center space-x-4">
             {/* Theme toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             >
               {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
-            </button>
+            </button> */}
 
             {/* Language selector */}
             <div className="relative">
@@ -101,7 +101,7 @@ const Header: React.FC<HeaderProps> = ({ isDashboard = false }) => {
             </div>
 
             {/* User menu or Auth buttons */}
-            {user ? (
+            {/* {user ? (
               <div className="relative">
                 <button
                   onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
@@ -146,7 +146,7 @@ const Header: React.FC<HeaderProps> = ({ isDashboard = false }) => {
                   {t('register')}
                 </Link>
               </div>
-            )}
+            )} */}
 
             {/* Mobile menu button */}
             <button

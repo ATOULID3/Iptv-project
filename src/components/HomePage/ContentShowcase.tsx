@@ -14,7 +14,7 @@ const ContentShowcase: React.FC = () => {
       rating: 9.0,
       genre: 'Action, Crime, Drama',
       duration: '152 min',
-      image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/pyNXnq8QBWoK3b37RS6C3axwUOy.jpg',
       description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...'
     },
     {
@@ -24,7 +24,7 @@ const ContentShowcase: React.FC = () => {
       rating: 8.8,
       genre: 'Action, Sci-Fi, Thriller',
       duration: '148 min',
-      image: 'https://images.pexels.com/photos/7991225/pexels-photo-7991225.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/aej3LRUga5rhgkmRP6XMFw3ejbl.jpg',
       description: 'A thief who steals corporate secrets through dream-sharing technology...'
     },
     {
@@ -34,7 +34,7 @@ const ContentShowcase: React.FC = () => {
       rating: 8.6,
       genre: 'Adventure, Drama, Sci-Fi',
       duration: '169 min',
-      image: 'https://images.pexels.com/photos/7991464/pexels-photo-7991464.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/1pnigkWWy8W032o9TKDneBa3eVK.jpg',
       description: 'A team of explorers travel through a wormhole in space...'
     },
     {
@@ -58,7 +58,7 @@ const ContentShowcase: React.FC = () => {
       genre: 'Crime, Drama, Thriller',
       seasons: 5,
       episodes: 62,
-      image: 'https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/tP2wgZfzkZxL18jImD2YXqEUXQA.jpg',
       description: 'A high school chemistry teacher turned methamphetamine manufacturer...'
     },
     {
@@ -69,7 +69,7 @@ const ContentShowcase: React.FC = () => {
       genre: 'Action, Adventure, Drama',
       seasons: 8,
       episodes: 73,
-      image: 'https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3YSdxdhhdCDlMs88RhvjhDLX4CA.jpg',
       description: 'Nine noble families fight for control over the lands of Westeros...'
     },
     {
@@ -80,7 +80,7 @@ const ContentShowcase: React.FC = () => {
       genre: 'Drama, Fantasy, Horror',
       seasons: 4,
       episodes: 42,
-      image: 'https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?w=400&h=600&fit=crop',
+      image: 'https://media.themoviedb.org/t/p/w600_and_h900_bestv2/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg',
       description: 'When a young boy disappears, his mother, a police chief and his friends...'
     },
     {
@@ -91,7 +91,7 @@ const ContentShowcase: React.FC = () => {
       genre: 'Biography, Drama, History',
       seasons: 6,
       episodes: 60,
-      image: 'https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?w=400&h=600&fit=crop',
+      image: 'https://th.bing.com/th/id/R.f263fe6abe92bf48e28ce8ae41dc7f13?rik=kgZuN9OWKxTHgw&pid=ImgRaw&r=0',
       description: 'Follows the political rivalries and romance of Queen Elizabeth II...'
     }
   ];
@@ -104,7 +104,7 @@ const ContentShowcase: React.FC = () => {
       nextMatch: 'Real Madrid vs Manchester City',
       date: '2025-02-15',
       time: '21:00 CET',
-      image: 'https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg?w=400&h=300&fit=crop',
+      image: 'https://tse2.mm.bing.net/th/id/OIF.iRBcYsf3s433Kz1XyywCtw?r=0&cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3',
       description: 'The most prestigious club competition in European football'
     },
     {
@@ -114,7 +114,7 @@ const ContentShowcase: React.FC = () => {
       nextMatch: 'Arsenal vs Liverpool',
       date: '2025-02-12',
       time: '17:30 GMT',
-      image: 'https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?w=400&h=300&fit=crop',
+      image: 'https://thvnext.bing.com/th/id/OIP.v8li19bv8lzrAl78bQZA-gHaFj?w=247&h=186&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.3&pid=1.7&rm=3',
       description: 'The top level of the English football league system'
     },
     {
@@ -124,7 +124,7 @@ const ContentShowcase: React.FC = () => {
       nextMatch: 'Barcelona vs Atletico Madrid',
       date: '2025-02-14',
       time: '20:00 CET',
-      image: 'https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?w=400&h=300&fit=crop',
+      image: 'https://www.somosxbox.com/wp-content/uploads/2023/04/LaLiga.jpg',
       description: 'Spain\'s premier football division featuring the world\'s best clubs'
     },
     {
@@ -134,7 +134,7 @@ const ContentShowcase: React.FC = () => {
       nextMatch: 'Juventus vs AC Milan',
       date: '2025-02-16',
       time: '18:00 CET',
-      image: 'https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?w=400&h=300&fit=crop',
+      image: 'https://www.footitalia.com/wp-content/uploads/2023/06/Serie-A.png',
       description: 'Italy\'s top professional football league'
     }
   ];
